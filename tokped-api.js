@@ -3,7 +3,7 @@ const converter = require('json-2-csv');
 const fs        = require('fs');
 
 const url   = 'https://www.tokopedia.com/p/handphone-tablet/handphone';
-const total = 5;
+const total = 100;
 
 async function startBrowser(){
     let browser;
